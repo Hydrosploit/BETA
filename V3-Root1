@@ -1,0 +1,25 @@
+--Discord Auto Invite
+pcall(function()
+    local Request = syn and syn.request or request
+    Request({
+        Url = "http://127.0.0.1:6463/rpc?v=1",
+        Method = "POST",
+        Headers = {
+            ["Content-Type"] = "application/json",
+            ["Origin"] = "https://discord.com"
+        },
+        Body = game.HttpService:JSONEncode({
+            cmd = "INVITE_BROWSER",
+            args = {
+                code = "2XmjsWDQp3"
+            },
+            nonce = game.HttpService:GenerateGUID(false)
+        }),
+    })
+end)
+
+if game.PlaceId == 142823291 then --  MM2! 🔪
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hydrosploit/BETA/main/MM2-Main"))()
+else
+print("Game Not Supported")
+end
