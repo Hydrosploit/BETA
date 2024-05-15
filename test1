@@ -1,5 +1,0 @@
-if mainKey == 123 then
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Hydrosploit/BETA/main/V3-Root1"))()
-else
-      print("invalid key")
-end
