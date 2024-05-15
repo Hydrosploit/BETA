@@ -20,6 +20,6 @@ end)
 
 if game.PlaceId == 142823291 then --  MM2! 🔪
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hydrosploit/BETA/main/MM2-Main"))()
-elseif
+else
 print("Game Not Supported")
 end
