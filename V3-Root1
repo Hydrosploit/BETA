@@ -31,5 +31,5 @@ end)
 if game.PlaceId == 142823291 then --  MM2! 🔪
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hydrosploit/BETA/main/MM2-Main"))()
 else
-print("Game Not Supported")
+game:GetService("Players").LocalPlayer:Kick("Game Not Supprted!")
 end
