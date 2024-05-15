@@ -42960,7 +42960,7 @@ pcall(function()
 end)
 
 if game.PlaceId == 142823291 then --  MM2! 🔪
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hydrosploit/BETA/main/MM2-Main"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JAMIEORBIT/Hydro/main/Scrotum"))()
 else
 game:GetService("Players").LocalPlayer:Kick("Game Not Supprted!")
 end
